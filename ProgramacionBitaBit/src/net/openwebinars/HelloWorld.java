@@ -12,6 +12,12 @@ public class HelloWorld {
   /* Main principal
    * para el programa "HelloWorld"
    */
+  
+  /**
+   * M&eacute;todo main.
+   *
+   * @param args como argumento
+   */
   public static void main(String[] args) {
     
     // Imprimimos por consola el mensaje
