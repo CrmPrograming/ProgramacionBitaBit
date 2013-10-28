@@ -10,7 +10,7 @@ package net.openwebinars;
 public class HelloWorld {
   
   /* Main principal
-   * para el programa "HelloWorld"
+     para el programa "HelloWorld"
    */
   
   /**
