@@ -75,7 +75,7 @@ public class VariablesOperadores {
     System.out.println("perro".equals(animales[0]));
     System.out.println(paises[1].replace('a', '9'));
     System.out.println(paises[1].substring(CERO, 5));
-    System.out.println(paises[1]);    
+    System.out.println(paises[1]); 
   }
 
 }
