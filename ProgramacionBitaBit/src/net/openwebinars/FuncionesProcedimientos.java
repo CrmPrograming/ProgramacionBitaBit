@@ -77,6 +77,16 @@ public class FuncionesProcedimientos {
     return (resultado);
   }
   
+  // Método encargado de sumar
+  // todos los números indicados
+  // como parámetro
+  static int sumatorio(int ... n) {
+    int resultado = 0;
+    for (int i: n)
+      resultado += i;
+    return (resultado);
+  }
+  
   public static void main(String[] args) {
     int x = 2, y = 5, z = -3;
     int[] vectorA = {1, 8, 10, 20};
@@ -96,6 +106,9 @@ public class FuncionesProcedimientos {
     sumarVectores(vectorA, vectorB, resultados);
     System.out.println("> Suma de vectores 2: ");
     mostrarVector(resultados);
+    System.out.println("> Sumatorio 1: " + sumatorio(3, 2, 8, 10, 22, 13));
+    System.out.println("> Sumatorio 2: " + sumatorio(3, 2, 8));
+    System.out.println("> Sumatorio 3: " + sumatorio(3, 2, 8, 10, 22, 13, 90, -20, -40));
   }
 
 }
